@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
 
     <title>- JOGO DA VELHA -</title>
+    <link rel="stylesheet" href="css/s1.css">
 </head>
 <body>
     <h1>Jogo da velha</h1>
     <div id="Cont-butoes">
-        <button id="2-p">2 Jogadores</button>
-        <button id="1-p">Contra a IA</button>
+        <button class="b" 2-p">2 Jogadores</button>
+        <button class="b" id="1-p">Contra a IA</button>
     </div>
     <div id="conteiner" class="hide">
         <div class="box" id="block1"></div>
@@ -23,12 +24,13 @@
         <div class="box" id="block9"></div>
     </div>
     <div id="placar" class="hide">
+        <h2>        Placar</h2>
         <span class="box-placar">
-            <span id="x-placar">X</span>
+            <span id="x-placar">X</span>:
             <span id="p-nun1">0</span>
         </span>
         <span class="box-placar">
-            <span id="o-placar"></span>
+            <span id="o-placar"></span>:
             <span id="p-nun2">0</span>
         </span>
     </div>
